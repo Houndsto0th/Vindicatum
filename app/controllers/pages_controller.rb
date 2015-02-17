@@ -21,7 +21,6 @@ class PagesController < ApplicationController
     {name: "Ippon", role: "DPS", class: "Rogue", warlogs: "326467", rank: "Member"},
     {name: "Keirimath", role: "DPS", class: "Paladin", warlogs: "2935", rank: "Member"},
     {name: "Kinoble", role: "DPS", class: "Druid", warlogs: "4714", rank: "Member"},
-    {name: "Paleaura", role: "DPS", class: "DK", warlogs: "204050", rank: "Member"},
     {name: "Powerwaddle", role: "DPS", class: "Paladin", warlogs: "509481", rank: "Member"},
     {name: "Titandust", role: "DPS", class: "Warrior", warlogs: "972145", rank: "Member"},
   ]
