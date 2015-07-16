@@ -30,7 +30,7 @@
         <div class="intro-lead-in"></div>
         <div class="intro-heading">Vindicatum</div>
         <h4>
-          7/7 Mythic Highmaul | 10/10 Mythic BRF
+          13/13 Heroic | 2/13 Mythic
         </h4>
       <br>
       <br>
@@ -94,7 +94,7 @@
         <p class="text-muted">Tanned - GM <br>
         Powerwaddle - Tank & Meele <br>
         Arrow - Ranged <br>
-        Espressonoir - Healing</p>
+        Renray - Healing</p>
       </div>
     </div>
   </div>
@@ -156,7 +156,7 @@
       <h3 class="section-heading">Tanks</h3>
     </div>
       <% @tanks.each do |tank| %>
-      <div class="col-sm-4 col-sm-offset-4">
+      <div class="col-sm-3 col-sm-offset-2 text-center">
         <div class="team-member">
           <h4><%= tank[:name] %></h4>
           <ul class="list-inline social-buttons">
@@ -172,7 +172,7 @@
         <h3 class="section-heading">Healers</h3>
       </div>
       <% @healers.each do |healer| %>
-      <div class="col-sm-3">
+      <div class="col-sm-3 text-center">
         <div class="team-member">
           <h4><%= healer[:name] %></h4>
           <ul class="list-inline social-buttons">
@@ -188,7 +188,7 @@
         <h3 class="section-heading">DPS</h3>
       </div>
       <% @dps.each do |dps| %>
-      <div class="col-sm-3">
+      <div class="col-sm-3 text-center">
         <div class="team-member">
           <h4><%= dps[:name] %></h4>
           <ul class="list-inline social-buttons">

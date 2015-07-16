@@ -16,15 +16,14 @@ class PagesController < ApplicationController
     {name: "Kinoble", class: "Druid"},
     {name: "Arrow", class: "Hunter"},
     {name: "Tanned", class: "Priest"},
-    {name: "Draakken", class: "Druid"},
     {name: "Cryptrot", class: "Warlock"},
-    {name: "Chensterduh", class: "Mage"},
-    {name: "Farore", class: "Shaman"},
+    
   ]
   
   HEALERS = [
-    {name: "Espressonoir", class: "Monk"},
+    {name: "Draakken", class: "Druid"},
     {name: "Luminoire", class: "Priest"},
+    {name: "Farore", class: "Shaman"},
     {name: "Renray", class: "Priest"},
     {name: "Cmill", class: "Paladin"},
   ]
