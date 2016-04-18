@@ -25,22 +25,22 @@ $(document).ready(function(){
     target: '.navbar-fixed-top'
   });
 
-    var toggleImage = function(){
-      if ($("header").hasClass("kill1")){
-        // $("header").removeClass("kill1").addClass("kill2")
-      }
-      else if($("header").hasClass("kill2")) {
-        $("header").removeClass("kill2").addClass("kill3")
-      }
-      else if($("header").hasClass("kill3")) {
-        $("header").removeClass("kill3").addClass("kill4")
-      }
-      else if($("header").hasClass("kill4")) {
-        $("header").removeClass("kill4").addClass("kill1")
-      }
-
-    }
-
-    setInterval(toggleImage, 9000);
+    // var toggleImage = function(){
+    //   if ($("header").hasClass("kill1")){
+    //     $("header").removeClass("kill1").addClass("kill2")
+    //   }
+    //   else if($("header").hasClass("kill2")) {
+    //     $("header").removeClass("kill2").addClass("kill3")
+    //   }
+    //   else if($("header").hasClass("kill3")) {
+    //     $("header").removeClass("kill3").addClass("kill4")
+    //   }
+    //   else if($("header").hasClass("kill4")) {
+    //     $("header").removeClass("kill4").addClass("kill1")
+    //   }
+    // 
+    // }
+    // 
+    // setInterval(toggleImage, 9000);
 
   });
