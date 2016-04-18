@@ -27,7 +27,7 @@ $(document).ready(function(){
 
     var toggleImage = function(){
       if ($("header").hasClass("kill1")){
-        $("header").removeClass("kill1").addClass("kill2")
+        // $("header").removeClass("kill1").addClass("kill2")
       }
       else if($("header").hasClass("kill2")) {
         $("header").removeClass("kill2").addClass("kill3")
