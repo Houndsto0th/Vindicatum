@@ -24,7 +24,7 @@ $(document).ready(function(){
   $('body').scrollspy({
     target: '.navbar-fixed-top'
   });
-
+    // 
     // var toggleImage = function(){
     //   if ($("header").hasClass("kill1")){
     //     $("header").removeClass("kill1").addClass("kill2")
